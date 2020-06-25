@@ -1,0 +1,19 @@
+.listButtons {
+  display: flex;
+  padding: 0;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.listButtons li {
+  list-style: none;
+}
+
+.listButtons li button {
+  background-color: #fff;
+  border: 1px rgb(218, 207, 207) solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px -4px #000000;
+  cursor: pointer;
+  font-weight: 500;
+}

@@ -1,0 +1,8 @@
+.listStatistics {
+  padding: 0;
+}
+
+.listStatistics li {
+  list-style: none;
+  font-weight: 500;
+}
