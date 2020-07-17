@@ -10,6 +10,7 @@ export default class Section extends Component {
   };
 
   state = {
+    title: 'Please leave feedback',
     good: 0,
     neutral: 0,
     bad: 0,
@@ -40,12 +41,7 @@ export default class Section extends Component {
   };
 
   render() {
-    const { title } = this.props;
-    const { good } = this.state;
-    const { neutral } = this.state;
-    const { bad } = this.state;
-    const { total } = this.state;
-    const { positivePercentage } = this.state;
+    const { title, good, neutral, bad, total, positivePercentage } = this.state;
 
     return (
       <>
